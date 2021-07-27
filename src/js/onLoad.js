@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  alert("Loaded js");
+  console.log("Loaded js");
 
   const path =
     window.location.hostname === "localhost"
@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   const getFilePath = (file) => `${path}${file}`;
 
-  const mainDiv = $("#seq_content");
+  const mainDiv = $("#main");
 
   mainDiv.css({
     display: "flex",
@@ -29,14 +29,4 @@ $(document).ready(function () {
   Menu Content
 </div>
 `);
-
-  // requirejs([getFilePath("js/common.js")], (common) => {
-  //   const mainDiv = common.getMainDiv();
-  //   alert("Loaded js");
-  //   mainDiv.css({
-  //     display: "flex",
-  //   });
-  //   mainDiv.prepend(`<div id="sideBar"></div>`);
-  //   $("#sideBar").load(getFilePath("component/sidebar.html"));
-  // });
 });
