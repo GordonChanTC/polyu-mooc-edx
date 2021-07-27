@@ -12,6 +12,10 @@ $(document).ready(function () {
 
   mainDiv.css({
     display: "flex",
+    height: "1024px",
+    "overflow-y": "auto",
+    "overflow-x": "hidden",
+    width: "100%",
   });
   mainDiv.prepend(`<div id="sideBar">Menu Content</div>`);
   $("#sideBar").css({
