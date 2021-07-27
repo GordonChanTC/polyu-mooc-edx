@@ -1,15 +1,42 @@
-const path =
-  window.location.hostname === "localhost"
-    ? "./"
-    : "https://gordonchantc.github.io/polyu-mooc-edx/src/";
+$(document).ready(function () {
+  alert("Loaded js");
 
-const getFilePath = (file) => `${path}${file}`;
+  const path =
+    window.location.hostname === "localhost"
+      ? "./"
+      : "https://gordonchantc.github.io/polyu-mooc-edx/src/";
 
-requirejs([getFilePath("js/common.js")], (common) => {
-  const mainDiv = common.getMainDiv();
+  const getFilePath = (file) => `${path}${file}`;
+
+  const mainDiv = $("#seq_content");
+
   mainDiv.css({
     display: "flex",
   });
   mainDiv.prepend(`<div id="sideBar"></div>`);
-  $("#sideBar").load(getFilePath("component/sidebar.html"));
+  $("#sideBar").html(`<div
+  style="
+    position: sticky;
+    top: 60px;
+    left: 0px;
+    margin: 8px;
+    width: 120px;
+    height: 200px;
+    background: #eaeaea;
+    padding: 8px;
+  "
+>
+  Menu Content
+</div>
+`);
+
+  // requirejs([getFilePath("js/common.js")], (common) => {
+  //   const mainDiv = common.getMainDiv();
+  //   alert("Loaded js");
+  //   mainDiv.css({
+  //     display: "flex",
+  //   });
+  //   mainDiv.prepend(`<div id="sideBar"></div>`);
+  //   $("#sideBar").load(getFilePath("component/sidebar.html"));
+  // });
 });
