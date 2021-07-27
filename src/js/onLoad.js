@@ -1,7 +1,7 @@
 const path =
   window.location.hostname === "localhost"
     ? "./"
-    : "https://gordonchantc.github.io/polyu-mooc-edx/src";
+    : "https://gordonchantc.github.io/polyu-mooc-edx/src/";
 
 const getFilePath = (file) => `${path}${file}`;
 
