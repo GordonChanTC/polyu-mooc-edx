@@ -13,20 +13,15 @@ $(document).ready(function () {
   mainDiv.css({
     display: "flex",
   });
-  mainDiv.prepend(`<div id="sideBar"></div>`);
-  $("#sideBar").html(`<div
-  style="
-    position: sticky;
-    top: 60px;
-    left: 0px;
-    margin: 8px;
-    width: 120px;
-    height: 200px;
-    background: #eaeaea;
-    padding: 8px;
-  "
->
-  Menu Content
-</div>
-`);
+  mainDiv.prepend(`<div id="sideBar">Menu Content</div>`);
+  $("#sideBar").css({
+    position: "sticky",
+    top: "60px",
+    left: "0px",
+    margin: "8px",
+    width: "120px",
+    height: "200px",
+    background: "#eaeaea",
+    padding: "8px",
+  });
 });
