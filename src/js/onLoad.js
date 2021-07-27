@@ -5,7 +5,7 @@ const path =
 
 const getFilePath = (file) => `${path}${file}`;
 
-requirejs([getFilePath("js/common")], (common) => {
+requirejs([getFilePath("js/common.js")], (common) => {
   const mainDiv = common.getMainDiv();
   mainDiv.css({
     display: "flex",
