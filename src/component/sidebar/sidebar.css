@@ -1,20 +1,30 @@
 .m-sidebar {
     width: 260px;
     height: 100%;
+    padding: 25px;
     position: absolute;
     left: 0;
     top: 0;
     background-color: hsl(207, 71%, 12%);
     color: white;
     font-family: 'Brandon Grotesque';
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+.m-sidebar-logo > * {
+    width: 130px;
 }
 
 .m-sidebar-subtitle {
     width: 130px;
-    height: 30px;
     color: #DB9D00;
     font-size: 12px; 
     font-family: Impact;
+    white-space: pre-line;
 }
 
 .m-sidebar-title {
@@ -27,6 +37,7 @@
     width: 217px;
     font-size: 18px;
     cursor: pointer;
+    line-height: 30px;
 }
 
 .m-sidebar-sub-module-title:hover {
