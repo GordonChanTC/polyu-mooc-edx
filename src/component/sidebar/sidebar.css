@@ -1,0 +1,49 @@
+.m-sidebar {
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: hsl(207, 71%, 12%);
+    color: white;
+    font-family: 'Brandon Grotesque';
+}
+
+.m-sidebar-subtitle {
+    width: 130px;
+    height: 30px;
+    color: #DB9D00;
+    font-size: 12px; 
+    font-family: Impact;
+}
+
+.m-sidebar-title {
+    color: #DB9D00;
+    font-size: 22px;
+    font-family: Impact;
+}
+
+.m-sidebar-sub-module-title {
+    width: 217px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.m-sidebar-sub-module-title:hover {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.m-sidebar-sub-module-title.active {
+    background-color: #58758C;
+}
+
+.m-sidebar-course-menu {
+    color: #DB9D00;
+    font-size: 18px;
+    font-family: Impact;
+}
+
+.m-sidebar-course-menu:hover {
+    color: #FFFFFF;
+}
