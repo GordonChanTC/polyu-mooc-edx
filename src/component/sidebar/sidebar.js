@@ -1,4 +1,4 @@
-const initSideBar = (chapter) => {
+const initSideBar = (chapter, subModuleID) => {
   const path =
     window.location.hostname === "localhost"
       ? "./"
@@ -6,6 +6,7 @@ const initSideBar = (chapter) => {
 
   $.getJSON(path + `component/sidebar/chapters/ch${chapter}.json`, (data) => {
     const mainDiv = $("#main");
+    console.log(data);
 
     mainDiv.prepend(`
     <div class="m-sidebar">
@@ -24,12 +25,16 @@ const initSideBar = (chapter) => {
                 <span> ${data.title} </span>
             </div>
         </div>
-        ${data.course.map(
-          (c) =>
-            `<div class="m-sidebar-sub-module-title">
-                <span> ${c.title} </span>
+        ${data.course
+          .map(
+            (c) =>
+              `<div class="m-sidebar-sub-module-title ${
+                c.id == subModuleID ? "active" : ""
+              }">
+                <a href="${c.link}"> ${c.title} </a>
             </div>`
-        ).join('')}
+          )
+          .join("")}
         <div class="m-sidebar-course-menu">
             <span> Course Menu </span>
         </div>
@@ -37,5 +42,3 @@ const initSideBar = (chapter) => {
   `);
   });
 };
-
-initSideBar(1);
