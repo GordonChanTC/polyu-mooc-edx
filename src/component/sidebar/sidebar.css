@@ -57,7 +57,7 @@
 .m-sidebar-sub-module-title > a:focus,
 .m-sidebar-sub-module-title > a:visited
 {
-    color: inherit;
+    color: white !important;
     text-decoration: none;
 }
 
