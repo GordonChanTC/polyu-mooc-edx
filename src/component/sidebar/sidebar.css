@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url("https://gordonchantc.github.io/polyu-mooc-edx/src/fonts/brandon-grotesque-light-58a8a4b38001d.otf");
+}
+
 #main {
     display: flex;
     overflow-x: hidden;
