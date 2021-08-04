@@ -2,7 +2,6 @@
     display: flex;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 100%;
 }
 
 .m-sidebar {
@@ -56,6 +55,10 @@
 .m-sidebar-sub-module-title > a {
     color: inherit;
     text-decoration: none;
+}
+
+.m-sidebar-sub-module-title > a:visited {
+    color: inherit;
 }
 
 .m-sidebar-sub-module-title.active {
