@@ -4,6 +4,10 @@
     overflow-y: auto;
 }
 
+.xblock {
+    max-width: none;
+}
+
 .m-sidebar {
     width: 260px;
     padding: 25px;
