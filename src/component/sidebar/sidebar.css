@@ -40,12 +40,14 @@
     font-size: 12px; 
     font-family: Impact;
     white-space: pre-line;
+    line-height: 1.2;
 }
 
 .m-sidebar-title {
     color: #DB9D00;
     font-size: 22px;
     font-family: Impact;
+    line-height: 1.2;
 }
 
 .m-sidebar-sub-module-title {
