@@ -2,7 +2,7 @@ const initSideBar = (chapter, subModuleID) => {
   const path =
     window.location.hostname === "localhost"
       ? "./"
-      : "https://gordonchantc.github.io/polyu-mooc-edx/src/";
+      : "http://cors.io/?https://gordonchantc.github.io/polyu-mooc-edx/src/";
 
   $.getJSON(path + `component/sidebar/chapters/ch${chapter}.json`, (data) => {
     const mainDiv = $("#main");
