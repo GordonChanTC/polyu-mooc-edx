@@ -1,12 +1,5 @@
-const initSideBar = (chapter, subModuleID) => {
-  const path =
-    window.location.hostname === "localhost"
-      ? "./"
-      : "https://cors.io/?https://gordonchantc.github.io/polyu-mooc-edx/src/";
-
-  $.getJSON(path + `component/sidebar/chapters/ch${chapter}.json`, (data) => {
+const initSideBar = (data, subModuleID) => {
     const mainDiv = $("#main");
-    console.log(data);
 
     mainDiv.prepend(`
     <div class="m-sidebar">
@@ -40,5 +33,4 @@ const initSideBar = (chapter, subModuleID) => {
         </div>
     </div>
   `);
-  });
 };
