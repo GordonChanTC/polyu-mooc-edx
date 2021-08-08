@@ -25,13 +25,17 @@ $(document).ready(function () {
     position: "sticky",
     top: "0px",
     left: "0px",
-    width: "260px",
+    "min-width": "260px",
     height: "930px",
     background: "#eaeaea",
   });
   contentDiv.prepend(
-    `<image width="840px" height="216px" src="${getFilePath(
+    `<image id="m-banner" src="${getFilePath(
       "/images/banner/Chopped/M1B.jpg"
     )}" />`
   );
+  $("#m-banner").css({
+    "min-width": "840px",
+    "min-height": "216px",
+  });
 });
