@@ -29,6 +29,7 @@ $(document).ready(function () {
     left: "0px",
     width: "100%",
     height: "100%",
+    "max-width": "260px",
     background: "#eaeaea",
   });
   contentDiv.prepend(
