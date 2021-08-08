@@ -19,14 +19,16 @@ $(document).ready(function () {
     "overflow-x": "hidden",
     width: "100%",
     "justify-content": "center",
+    padding: "0",
+    margin: "20px",
   });
   mainDiv.prepend(`<div id="sideBar">Menu Content</div>`);
   $("#sideBar").css({
     position: "sticky",
     top: "0px",
     left: "0px",
-    "min-width": "260px",
-    height: "930px",
+    width: "100%",
+    height: "100%",
     background: "#eaeaea",
   });
   contentDiv.prepend(
