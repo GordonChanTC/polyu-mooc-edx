@@ -1,5 +1,5 @@
 const getURL = (courseId) => {
-  const hostname = window.location.hostname;
+  const hostname = window.location.origin;
   const course = 'courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/jump_to_id/';
 
   return hostname + course + courseId;
