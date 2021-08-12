@@ -1,7 +1,7 @@
 const getURL = (courseId) => {
-  const url = "https://learning.edx.org/course/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/block-v1:HKPolyUx+HKPolyU-SD01x+3T2021+type@sequential+block@9dada50365364201a9c76ee01917618d/block-v1:HKPolyUx+HKPolyU-SD01x+3T2021+type@vertical+block@";
+  const path = "/jump_to_id";
 
-  return url + courseId;
+  return path + courseId;
 }
 
 const initSideBar = (data, subModuleID) => {
