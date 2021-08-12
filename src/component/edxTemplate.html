@@ -1,0 +1,14 @@
+<link
+  rel="stylesheet"
+  href="https://gordonchantc.github.io/polyu-mooc-edx/src/component/sidebar/sidebar.css"
+/>
+<script type="text/javascript">
+  const moduleDataURL =
+    "https://gordonchantc.github.io/polyu-mooc-edx/src/component/sidebar/chapters/ch2.js";
+  const initSideBarURL =
+    "https://gordonchantc.github.io/polyu-mooc-edx/src/component/sidebar/sidebar.js";
+
+  $.getScript(moduleDataURL).then(() => {
+    $.getScript(initSideBarURL).then(() => initSideBar(modules, 1));
+  });
+</script>

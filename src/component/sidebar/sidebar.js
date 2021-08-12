@@ -1,13 +1,13 @@
 const getURL = (courseId) => {
   const path = "/jump_to_id";
 
-  return path + courseId;
-}
+  return path + "/" + courseId;
+};
 
 const initSideBar = (data, subModuleID) => {
-    const mainDiv = $("#main");
+  const mainDiv = $("#main");
 
-    mainDiv.prepend(`
+  mainDiv.prepend(`
     <div class="m-sidebar">
         <div>
             <div class="m-sidebar-logo">
