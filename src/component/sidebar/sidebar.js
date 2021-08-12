@@ -1,3 +1,10 @@
+const getURL = (courseId) => {
+  const hostname = window.location.hostname;
+  const course = 'courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/jump_to_id/';
+
+  return hostname + course + courseId;
+}
+
 const initSideBar = (data, subModuleID) => {
     const mainDiv = $("#main");
 
@@ -24,7 +31,7 @@ const initSideBar = (data, subModuleID) => {
               `<div class="m-sidebar-sub-module-title ${
                 c.id == subModuleID ? "active" : ""
               }">
-                <a href="${c.link}"> ${c.title} </a>
+                <a href="${getURL(c.courseId)}"> ${c.title} </a>
             </div>`
           )
           .join("")}
