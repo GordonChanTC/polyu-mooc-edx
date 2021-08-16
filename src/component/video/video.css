@@ -28,19 +28,19 @@
 }
 
 .m-video-preview-play {
-    width: 58px;
-    height: 37px;
-    position: relative;
+    width: 60px;
+    height: 40px;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    animation: 0.05s linear;
+    animation: 0.1s linear;
 }
 
 .m-video-preview:hover > .m-video-preview-play {
-    width: 63.8px;
-    height: 40.7px;
+    width: 66px;
+    height: 44px;
 }
 
 .m-video-title {
