@@ -49,7 +49,7 @@
     font-family: Imapct;
     padding: 0;
     line-height: 24px !important;
-    background-image: none;
+    background-image: none !important;
 }
 
 .m-video-download-content:hover {
