@@ -46,6 +46,7 @@
     color: white;
     font-size: 16px;
     transition: 0.1s linear;
+    font-family: Imapct;
 }
 
 .m-video-download-content:hover {
