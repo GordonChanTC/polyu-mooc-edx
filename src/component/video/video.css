@@ -47,6 +47,8 @@
     font-size: 16px;
     transition: 0.1s linear;
     font-family: Imapct;
+    padding: 0;
+    line-height: 24px !important;
 }
 
 .m-video-download-content:hover {
@@ -55,16 +57,16 @@
 }
 
 .m-video-download-content:focus {
-    background-color: #09B1BF;
+    background-color: #9DB1BF;
     color: #0D2131;
 }
 
 .modal {
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
-    right: 0;
-    bottom: 0;
     z-index: 10000;
     display: none;
     padding: 0;
