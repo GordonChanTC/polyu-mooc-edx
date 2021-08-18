@@ -1,5 +1,10 @@
-<script src="https://gordonchantc.github.io/polyu-mooc-edx/src/component/banner/banner.js"></script>
 <link
   rel="stylesheet"
   href="https://gordonchantc.github.io/polyu-mooc-edx/src/component/banner/banner.css"
 />
+<script type="text/javascript">
+  const initBannerURL =
+    "https://gordonchantc.github.io/polyu-mooc-edx/src/component/banner/banner.js";
+
+  $.getScript(initBannerURL).then(() => initBanner(1));
+</script>

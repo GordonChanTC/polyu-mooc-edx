@@ -1,13 +1,7 @@
-$(document).ready(function () {
-  const path =
-    window.location.hostname === "localhost"
-      ? "."
-      : "https://gordonchantc.github.io/polyu-mooc-edx/src";
-
-  const getFilePath = (file) => `${path}${file}`;
-
+const initBanner = (moduleId) => {
   const contentDiv = $(".vert-mod");
+
   contentDiv.prepend(
-    `<image class="m-banner" src="${getFilePath("/images/banner/M1.jpg")}" />`
+    `<image class="m-banner" src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/banner/M${moduleId}.jpg" />`
   );
-});
+};

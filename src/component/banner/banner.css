@@ -1,4 +1,6 @@
 .m-banner {
+  width: 740px;
+  height: 190px;
   object-fit: cover;
   object-position: center center;
 }
