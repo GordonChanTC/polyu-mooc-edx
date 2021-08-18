@@ -38,6 +38,7 @@ button.submit.btn-brand {
     line-height: 24px !important;
     background-image: none !important;
     box-shadow: none !important;
+    margin-bottom: 25px;
 }
 
 button.submit.btn-brand:hover {
