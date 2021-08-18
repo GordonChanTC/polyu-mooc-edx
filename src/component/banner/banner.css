@@ -1,4 +1,4 @@
 .m-banner {
-  min-width: 740px;
-  min-height: 190px;
+  object-fit: cover;
+  object-position: center center;
 }

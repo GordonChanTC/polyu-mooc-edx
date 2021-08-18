@@ -8,8 +8,6 @@ $(document).ready(function () {
 
   const contentDiv = $(".vert-mod");
   contentDiv.prepend(
-    `<image class="m-banner" src="${getFilePath(
-      "/images/banner/Chopped/M1B.jpg"
-    )}" />`
+    `<image class="m-banner" src="${getFilePath("/images/banner/M1.jpg")}" />`
   );
 });
