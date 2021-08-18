@@ -1,3 +1,7 @@
+<!-- video_id: ID provided by edx, find from native video block -> advanced -> video id -->
+<!-- video_preview: URL of preview image, find from poster tag of the HTML video element -->
+<!-- handout_url: URL of handout PDF, just copy path name, no domain -->
+
 <div class="m-text-video-block">
   <div class="m-video-preview" data-video-id="{{ video_id }}">
     <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
@@ -17,3 +21,15 @@
     </div>
   </div>
 </div>
+
+<!-- Video Overlay -->
+
+<div id="modal" class="modal">
+  <div id="m-overlay">
+    <video style="max-width: 50%; z-index: 2" id="video" controls />
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js"></script>
+<script src="https://gordonchantc.github.io/polyu-mooc-edx/src/component/video/video.js"></script>
+<link rel="stylesheet" href="https://gordonchantc.github.io/polyu-mooc-edx/src/component/video/video.css" />
