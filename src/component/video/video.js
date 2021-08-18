@@ -1,4 +1,5 @@
 $(".m-video-preview").click((e) => {
+    console.log(Hls.isSupported());
     if (Hls.isSupported()) {
         const video = $("#video")[0];
         const hls = new Hls();
