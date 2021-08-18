@@ -9,7 +9,7 @@ $(".m-video-preview").click((e) => {
             ".m3u8"
         );
         hls.attachMedia(video);
-        $("#modal")[0].show();
+        $("#modal").show();
     }
 });
 
@@ -18,6 +18,6 @@ $("#m-overlay").click((e) => {
         const video = $("#video")[0];
         video.pause();
         video.currentTime = 0;
-        $("#modal")[0].hide();
+        $("#modal").hide();
     }
 });
