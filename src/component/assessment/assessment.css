@@ -1,0 +1,51 @@
+.problem-header {
+    margin: 25px 0 8px 0;
+    color: #0D2131;
+    font-family: Impact;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.problem-progress {
+    margin-bottom: 8px;
+    color: #0D2132 !important;
+    font-family: Arial;
+    font-size: 14px !important;
+    line-height: 18px;
+}
+
+legend.response-fieldset-legend {
+    margin-bottom: 8px !important;
+    color: #0D2133;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+label.response-label {
+    margin-bottom: 8px !important;
+}
+
+button.submit.btn-brand {
+    width: 153px;
+    height: 45px;
+    background-color: #0D2131 !important;
+    color: white !important;
+    font-size: 16px;
+    transition: 0.1s linear;
+    font-family: Imapct;
+    padding: 0;
+    line-height: 24px !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+button.submit.btn-brand:hover {
+    background-color: white !important;
+    color: #0D2131 !important;
+}
+
+button.submit.btn-brand:focus {
+    background-color: #9DB1BF !important;
+    color: #0D2131 !important;
+}
