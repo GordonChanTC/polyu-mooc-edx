@@ -1,68 +1,19 @@
-<html>
-  <head> </head>
-  <body>
-    <div class="m-text-video-block">
-      <div
-        class="m-video-preview"
-        data-video-id="6f63e282-2720-4cad-bd65-e6d261f8b36d"
-      >
-        <img
-          class="m-video-preview-thumbnail"
-          src="https://prod-images.edx-video.net/video-images/6f63e282-2720-4cad-bd65-e6d261f8b36d-thumbnails.0000001.jpeg"
-        />
-        <img
-          class="m-video-preview-play"
-          src="https://polyuit-my.sharepoint.com/personal/lyshochan_polyu_edu_hk/Documents/Commission/MOOC/VideoThumbnail/PlayButton/PlayButton50%25.png"
-        />
-      </div>
-      <div class="m-text-block">
-        <div class="m-video-title">Traditional problem-solving process</div>
-        <div class="m-video-description">
-          The traditional problem-solving approach is effective for resolving
-          well-defined problems. The logic starts by understanding the problem
-          through analyzing the initial situation. After identifying the correct
-          definition of the problem, one can formulate some possible solutions.
-          The options are evaluated and the best will be chosen for
-          implementation, thus transforming the initial situation to the
-          specific goal.
-        </div>
-        <div>
-          <form target="_blank">
-            <button
-              class="m-video-download-content"
-              formaction="https://studio.edx.org/asset-v1:HKPolyUx+HKPolyUSD01x+3T2020+type@asset+block@Module_1.3a_updated.pdf"
-            >
-              Download Handout
-            </button>
-          </form>
-        </div>
-      </div>
+<div class="m-text-video-block">
+  <div class="m-video-preview" data-video-id="{{ video_id }}">
+    <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
+    <img class="m-video-preview-play" src="https://polyuit-my.sharepoint.com/personal/lyshochan_polyu_edu_hk/Documents/Commission/MOOC/VideoThumbnail/PlayButton/PlayButton50%25.png" />
+  </div>
+  <div class="m-text-block">
+    <div class="m-video-title">
+      {{ title }}
     </div>
-
-    <div
-      id="modal"
-      class="modal"
-      style="
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 10000;
-        display: none;
-        padding: 0;
-        background-color: transparent;
-      "
-    >
-      <div id="m-overlay">
-        <video style="max-width: 50%; z-index: 2" id="video" controls />
-      </div>
+    <div class="m-video-description">
+      {{ description }}
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js"></script>
-    <script src="./video.js"></script>
-    <link rel="stylesheet" href="./video.css" />
-  </body>
-</html>
+    <div>
+      <form target="_blank">
+        <button class="m-video-download-content" formaction="{{ handout_url }}">Download Handout</button> 
+      </form>
+    </div>
+  </div>
+</div>
