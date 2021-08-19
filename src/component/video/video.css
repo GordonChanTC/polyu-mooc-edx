@@ -108,3 +108,13 @@
     align-items: flex-start;
     gap: 24px;
 }
+
+.m-video-only-preview {
+    cursor: pointer;
+    position: relative;
+}
+
+.m-video-only-preview:hover > .m-video-preview-play {
+    width: 66px;
+    height: 44px;
+}
