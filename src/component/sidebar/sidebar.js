@@ -6,10 +6,6 @@ const getURL = (courseId) => {
   return "/courses/" + course + path + courseId;
 };
 
-const getHomeURL = () => {
-  return "/course/" + course + 'home';
-}
-
 const initSideBar = (data, subModuleID) => {
   const mainDiv = $("#main");
 
@@ -41,7 +37,7 @@ const initSideBar = (data, subModuleID) => {
           )
           .join("")}
         <div class="m-sidebar-course-menu">
-            <a href="${getHomeURL('home')}"> Course Menu </a>
+            <a href="https://learning.edx.org/course/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/home"> Course Menu </a>
         </div>
     </div>
   `);
