@@ -1,13 +1,13 @@
-const course = "/courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/";
+const course = "course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/";
 
 const getURL = (courseId) => {
   const path = "jump_to_id/";
 
-  return course + path + courseId;
+  return "/courses/" + course + path + courseId;
 };
 
 const getHomeURL = () => {
-  return course + 'home';
+  return "/course/" + course + 'home';
 }
 
 const initSideBar = (data, subModuleID) => {
