@@ -1,7 +1,7 @@
 const getURL = (courseId) => {
-  const path = "/jump_to_id";
+  const path = "/courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/jump_to_id/";
 
-  return path + "/" + courseId;
+  return path + courseId;
 };
 
 const initSideBar = (data, subModuleID) => {
