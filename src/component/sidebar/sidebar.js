@@ -1,8 +1,14 @@
-const getURL = (courseId) => {
-  const path = "/courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/jump_to_id/";
+const course = "/courses/course-v1:HKPolyUx+HKPolyU-SD01x+3T2021/";
 
-  return path + courseId;
+const getURL = (courseId) => {
+  const path = "jump_to_id/";
+
+  return course + path + courseId;
 };
+
+const getHomeURL = () => {
+  return course + 'home';
+}
 
 const initSideBar = (data, subModuleID) => {
   const mainDiv = $("#main");
@@ -35,7 +41,7 @@ const initSideBar = (data, subModuleID) => {
           )
           .join("")}
         <div class="m-sidebar-course-menu">
-            <a href="${getURL('home')}"> Course Menu </a>
+            <a href="${getHomeURL('home')}"> Course Menu </a>
         </div>
     </div>
   `);
