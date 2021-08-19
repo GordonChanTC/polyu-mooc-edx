@@ -35,7 +35,7 @@ const initSideBar = (data, subModuleID) => {
           )
           .join("")}
         <div class="m-sidebar-course-menu">
-            <span> Course Menu </span>
+            <a href="${getURL('home')}"> Course Menu </a>
         </div>
     </div>
   `);

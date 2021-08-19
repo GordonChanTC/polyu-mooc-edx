@@ -87,3 +87,11 @@
 .m-sidebar-course-menu:hover {
     color: #FFFFFF;
 }
+
+.m-sidebar-course-menu > a,
+.m-sidebar-course-menu > a:hover,
+.m-sidebar-course-menu > a:focus,
+.m-sidebar-course-menu > a:visited {
+    color:inherit !important;
+    text-decoration: none;
+}
