@@ -1,0 +1,28 @@
+.unit-title {
+  margin-bottom: 30px;
+  color: #0d2130;
+  font-family: Impact;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.m-text-block {
+  margin: 0 40px;
+}
+
+.m-text-title {
+  margin-bottom: 8px;
+  color: #0d2130;
+  font-family: Impact;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.m-text-desc {
+  margin-bottom: 30px;
+  color: #0d2130;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
