@@ -1,4 +1,6 @@
-.unit-title {
+.unit-title,
+div.unit > h1.mb-0.h3 
+{
   margin-bottom: 30px;
   color: #0d2130;
   font-family: Impact;
