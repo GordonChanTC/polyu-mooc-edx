@@ -1,0 +1,26 @@
+div.discussion-module-header {
+  width: 100% !important;
+}
+
+div.discussion-module {
+  margin: 0 5px;
+}
+
+h3.discussion-module-title {
+  margin-bottom: 3px;
+  color: #0d2130;
+  font-family: Impact;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+div.inline-discussion-topic {
+  color: #0d2131;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+button.discussion-show {
+  float: left !important;
+}
