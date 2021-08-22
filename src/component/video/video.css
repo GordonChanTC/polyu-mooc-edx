@@ -9,9 +9,10 @@
     font-family: Impact;
 }
 
-.m-text-block {
+.m-text-video-block > .m-text-block {
     display: flex;
     flex-direction: column;
+    margin: 0 10px 0 0;
 }
 
 .m-video-preview {
