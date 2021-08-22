@@ -65,10 +65,10 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.m-sidebar-sub-module-title > a,
-.m-sidebar-sub-module-title > a:hover,
-.m-sidebar-sub-module-title > a:focus,
-.m-sidebar-sub-module-title > a:visited
+a > .m-sidebar-sub-module-title,
+a:hover > .m-sidebar-sub-module-title,
+a:focus > .m-sidebar-sub-module-title,
+a:visited > .m-sidebar-sub-module-title
 {
     color: white !important;
     text-decoration: none;
