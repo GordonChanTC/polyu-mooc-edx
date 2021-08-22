@@ -36,15 +36,15 @@ div.unit > h1.mb-0 {
 }
 
 a.m-hyperlink {
-  color: #db9d00;
-  text-decoration: underline;
+  color: #db9d00 !important;
+  text-decoration: underline !important;
 }
 
 a.m-hyperlink:hover {
-  color: #0d2130;
+  color: #0d2130 !important;
 }
 
 a.m-hyperlink:focus,
 a.m-hyperlink:visited {
-  color: inherit;
+  color: inherit !important;
 }
