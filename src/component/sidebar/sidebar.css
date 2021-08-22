@@ -66,10 +66,10 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.m-sidebar > a,
-.m-sidebar > a:hover,
-.m-sidebar > a:focus,
-.m-sidebar > a:visited
+a.m-sidebar-hyperlink,
+a.m-sidebar-hyperlink:hover,
+a.m-sidebar-hyperlink:focus,
+a.m-sidebar-hyperlink:visited
 {
     color: white !important;
     text-decoration: none;
