@@ -35,16 +35,16 @@ div.unit > h1.mb-0 {
   text-decoration: underline;
 }
 
-.m-text-desc > a {
+.m-text-desc > span > a {
   color: #db9d00;
   text-decoration: underline;
 }
 
-.m-text-block > a:hover {
+.m-text-block > span > a:hover {
   color: #0d2130;
 }
 
-.m-text-desc > a:focus,
-.m-text-desc > a:visited {
+.m-text-desc > span > a:focus,
+.m-text-desc > span > a:visited {
   color: inherit;
 }
