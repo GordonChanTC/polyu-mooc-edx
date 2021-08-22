@@ -29,11 +29,13 @@ const initSideBar = (data, subModuleID) => {
         ${data.course
           .map(
             (c) =>
-              `<div class="m-sidebar-sub-module-title ${
-                c.id == subModuleID ? "active" : ""
-              }">
-                <a href="${getURL(c.courseId)}"> ${c.title} </a>
-            </div>`
+              `<a href="${getURL(c.courseId)}">
+                <div class="m-sidebar-sub-module-title ${
+                  c.id == subModuleID ? "active" : ""
+                }">
+                  ${c.title}
+                </div>
+              </a>`
           )
           .join("")}
         <div class="m-sidebar-course-menu">
