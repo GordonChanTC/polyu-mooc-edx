@@ -29,7 +29,7 @@ const initSideBar = (data, subModuleID) => {
         ${data.course
           .map(
             (c) =>
-              `<a class="m-sidebar-hyperlink href="${getURL(c.courseId)}">
+              `<a class="m-sidebar-hyperlink" href="${getURL(c.courseId)}">
                 <div class="m-sidebar-sub-module-title ${
                   c.id == subModuleID ? "active" : ""
                 }">
