@@ -16,7 +16,8 @@
     font-family: Arial;
 }
 
-.m-video-preview {
+.m-video-preview,
+.m-video-preview-with-button {
     width: 290px;
     min-width: 290px;
     height: 160px;
