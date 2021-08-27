@@ -124,18 +124,18 @@
 }
 
 .m-video-preview-button-container {
-    width: 60%;
+    width: 100%;
     height: 100%;
-    display: flex;
     position: absolute;
     left: 20%;
-    flex-direction: column;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .m-video-preview-en,
 .m-video-preview-cn {
-    width: 180px;
+    width: 60px;
     height: 45px;
     background-color: #0D2131 !important;
     color: white !important;
@@ -144,6 +144,13 @@
     font-family: Imapct;
     padding: 0;
     line-height: 24px !important;
-    background-image: none !important;
-    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-video-preview-en:hover,
+.m-video-preview-cn:hover {
+    background-color: white !important;
+    color: #0D2131 !important;
 }
