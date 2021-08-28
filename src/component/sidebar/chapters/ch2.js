@@ -24,7 +24,7 @@ const modules = {
     {
       id: 5,
       title: "M2.5 Ideate",
-      courseId: "84cf1bc9e5114613a42f72ccd96d4672",
+      courseId: "c890c519258643948f3009e27ed9c482",
     },
     {
       id: 6,
