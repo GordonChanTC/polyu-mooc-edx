@@ -128,7 +128,7 @@
     height: 20%;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -136,8 +136,8 @@
 
 .m-video-preview-en,
 .m-video-preview-cn {
-    width: 60px;
-    height: 45px;
+    width: 70px;
+    height: 35px;
     background-color: #0D2131 !important;
     color: white !important;
     font-size: 16px;
