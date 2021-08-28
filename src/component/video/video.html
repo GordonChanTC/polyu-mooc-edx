@@ -5,18 +5,19 @@
 <div class="m-text-video-block">
   <div class="m-video-preview" data-video-id="{{ video_id }}">
     <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
-    <img class="m-video-preview-play" src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png" />
+    <img
+      class="m-video-preview-play"
+      src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png"
+    />
   </div>
   <div class="m-text-block">
-    <div class="m-video-title">
-      {{ title }}
-    </div>
-    <div class="m-video-description">
-      {{ description }}
-    </div>
+    <div class="m-video-title">{{ title }}</div>
+    <div class="m-video-description">{{ description }}</div>
     <div>
       <form target="_blank">
-        <button class="m-video-download-content" formaction="{{ handout_url }}">Download Handout</button> 
+        <button class="m-video-download-content" formaction="{{ handout_url }}">
+          Download Handout
+        </button>
       </form>
     </div>
   </div>
@@ -25,17 +26,71 @@
 <!-- Video Only Block -->
 
 <div class="m-video-only-block">
-  <div class="m-video-title">
-    {{ title }}
-  </div>
+  <div class="m-video-title">{{ title }}</div>
   <div class="m-video-only-preview" data-video-id="{{ video_id }}">
     <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
-    <img class="m-video-preview-play" src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png" />
+    <img
+      class="m-video-preview-play"
+      src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png"
+    />
   </div>
   <div>
     <form target="_blank">
-      <button class="m-video-download-content" formaction="{{ handout_url }}">Download Handout</button> 
+      <button class="m-video-download-content" formaction="{{ handout_url }}">
+        Download Handout
+      </button>
     </form>
+  </div>
+</div>
+
+<!-- Video Only Block With Languages -->
+
+<div class="m-video-only-block">
+  <div class="m-video-title">{{ title }}</div>
+  <div class="m-video-only-preview-with-button" data-video-id="{{ video_id }}">
+    <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
+    <img
+      class="m-video-preview-play"
+      src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png"
+    />
+    <div class="m-video-preview-button-container">
+      <div class="m-video-preview-en" data-video-id="{{ video_id }}">ENG</div>
+      <div class="m-video-preview-cn" data-video-id="{{ video_id }}">中</div>
+    </div>
+  </div>
+  <div>
+    <form target="_blank">
+      <button class="m-video-download-content" formaction="{{ handout_url }}">
+        Download Handout
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Video Block With Languages -->
+
+<div class="m-text-video-block">
+  <div class="m-video-preview-with-button" data-video-id="{{ video_id }}">
+    <img class="m-video-preview-thumbnail" src="{{ video_preview }}" />
+    <img
+      class="m-video-preview-play"
+      src="https://gordonchantc.github.io/polyu-mooc-edx/src/images/icon/PlayIcon.png"
+    />
+    <div class="m-video-preview-button-container">
+      <div class="m-video-preview-en" data-video-id="{{ video_id }}">ENG</div>
+      <div class="m-video-preview-cn" data-video-id="{{ video_id }}">中</div>
+    </div>
+  </div>
+  <div class="m-text-block">
+    <div class="m-video-title">{{ title }}</div>
+    <div class="m-video-description">{{ description }}</div>
+    <div>
+      <form target="_blank">
+        <button class="m-video-download-content" formaction="{{ handout_url }}">
+          Download Handout
+        </button>
+      </form>
+    </div>
   </div>
 </div>
 
@@ -49,4 +104,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js"></script>
 <script src="https://gordonchantc.github.io/polyu-mooc-edx/src/component/video/video.js"></script>
-<link rel="stylesheet" href="https://gordonchantc.github.io/polyu-mooc-edx/src/component/video/video.css" />
+<link
+  rel="stylesheet"
+  href="https://gordonchantc.github.io/polyu-mooc-edx/src/component/video/video.css"
+/>
