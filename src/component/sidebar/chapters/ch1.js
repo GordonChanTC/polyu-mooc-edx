@@ -4,42 +4,42 @@ const modules = {
         {
             "id": 1,
             "title": "M1.1 Objective",
-            "courseId": "9c93785cbdfb42329acdacecb6a22fdf",
+            "courseId": "e9c97b52bca24f25a0cfae99dfa99162",
         },
         {
             "id": 2,
             "title": "M1.2 Introduction",
-            "courseId": "ae5b7e1231fc4b0a9b2914441d2852a0",
+            "courseId": "27812972941141ff83cc0937d9b09a2e",
         },
         {
             "id": 3,
             "title": "M1.3 Traditional problem-solving approach",
-            "courseId": "4c66cf55d8e34011bf7d9a3326720d46",
+            "courseId": "77d299c74d524292ac96587f44be8353",
         },
         {
             "id": 4,
             "title": "M1.4 Wicked Problems",
-            "courseId": "1b71790ff59f4731be259462bd1c8f4e",
+            "courseId": "b0514748285f4841bf9fb5bd3acc1044",
         },
         {
             "id": 5,
             "title": "M1.5 Design Thinking problem-solving approach",
-            "courseId": "91181545d2f24056ba60bb0e1584da75",
+            "courseId": "9e1c6aa2d938425ea10d5cac6b6ed426",
         },
         {
             "id": 6,
             "title": "M1.6 Design Thinking is more than a process",
-            "courseId": "230be46b6ff3421388d3671e2b91c26a",
+            "courseId": "8c1ad28b494c4c018696c6fdb200035a",
         },
         {
             "id": 7,
             "title": "M1.7 Module activities",
-            "courseId": "d09cc6e0eda147d2861cc81888114d5c",
+            "courseId": "53ea6d5f701c473fb940ef82be841acc",
         },
         {
             "id": 8,
             "title": "M1.8 Recap and Test of Module 1",
-            "courseId": "5a5b3bb2049a463b9c7467feb6dc714c",
+            "courseId": "2cfaf0be4c5344bf853a47d123e7a154",
         }
     ]
 }
