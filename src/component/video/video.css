@@ -132,6 +132,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.m-video-preview-button-container:hover {
+    opacity: 1;
 }
 
 .m-video-preview-en,
