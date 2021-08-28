@@ -4,47 +4,47 @@ const modules = {
     {
       id: 1,
       title: "M3.1 Objective",
-      courseId: "5a2650035d0342b9842b39590dc2eedd",
+      courseId: "f1b3d95f43fc4c8ba0b2f9d2cf5ab030",
     },
     {
       id: 2,
       title: "M3.2 Introduction",
-      courseId: "8ccf9fe4fe884acd839b6521806f8979",
+      courseId: "71aa6e3ae0df4593b199b993cae02968",
     },
     {
       id: 3,
       title: "M3.3 Contextual Inquiry",
-      courseId: "0a3d9ccbda234daa9b4df388bd203161",
+      courseId: "cf104a2f503940dabd4debd3e1a8b69a",
     },
     {
       id: 4,
       title: "M3.4 Affinity Map",
-      courseId: "fcfa1a34b8e64d0297daa212a9e5ddb7",
+      courseId: "6024d820a7fd438283583e7b36416e12",
     },
     {
       id: 5,
       title: "M3.5 Analogous Inspiration",
-      courseId: "c4ee75b95fb24806bcace2136779c467",
+      courseId: "655a0563d16544b6bd105f30f21b3411",
     },
     {
       id: 6,
       title: "M3.6 Brainstorming",
-      courseId: "6caafaae096c464789ec807754b57540",
+      courseId: "ef9f298f6c564853a548be5f479f15c3",
     },
     {
       id: 7,
       title: "M3.7 Cognitive Walkthrough",
-      courseId: "538d0930037f4926a09e1405178b6b1f",
+      courseId: "1c5e3cc6935f458b8c0f38efebd27c54",
     },
     {
       id: 8,
       title: "M3.8 Module activities",
-      courseId: "292fc3b19cdd4fefb02c5ba5cd4f6653",
+      courseId: "4175597cc5454cccba4ff73a7cf90801",
     },
     {
       id: 9,
       title: "M3.9 Recap and Test of Module 3",
-      courseId: "00f1c7cefcae4348bea0d344cbd6dd74",
+      courseId: "c5ab8342a64d44419a98e35e9c37ba01",
     },
   ],
 };
